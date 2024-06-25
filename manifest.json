@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Work Market Bad Tech Hider",
+  "description": "This extension hides Work Market techs with 0 jobs from your company.",
+  "version": "1.0",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_icon": "logo.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+  
+}
