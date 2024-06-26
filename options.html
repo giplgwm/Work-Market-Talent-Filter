@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Work Market Tech Filter</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 10px; font-size: 16px;}
+    .form-group { margin-bottom: 30px; text-align: justify; width: fit-content;}
+	h3 {margin-bottom: 0px;}
+	.toggle-setting {margin-bottom: 10px; }
+  </style>
+</head>
+<body>
+  <img src='logo.png' />
+  <h3>Don't show techs with: </h3>
+  <div class="form-group">
+  
+  	<label for="b_nojobs">0 jobs</label>
+    <input type="checkbox" class="toggle-setting" id="b_nojobs"> <br/>
+	
+    <label for="b_nojobscompany">0 jobs <b>for your company</b></label>
+    <input type="checkbox" class="toggle-setting" id="b_nojobscompany"> <br/>
+	
+	<label for="b_abandoncompany">any abandoned jobs <b>for your company</b></label>
+    <input type="checkbox" class="toggle-setting" id="b_abandoncompany"> <br/>
+	
+	<label for="b_abandonany">any abandoned jobs</label>
+    <input type="checkbox" class="toggle-setting" id="b_abandonany"> <br/>
+
+	
+  </div>
+
+  <button id="save-settings">Save</button>
+  <script src="options.js"></script>
+</body>
+</html>
