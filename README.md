@@ -5,11 +5,14 @@ A web browser extension made to hide work market techs. When toggled on it will 
 - Any abandoned jobs for your company
 - Any abandoned jobs
 
-**By default, only 0 jobs for your company is on. To toggle these, press `extensions > 3 dots next to Work market tech hider > Extension options`**
-
 ![Example Profile that would be hidden](example.png "Example Profile that would be hidden") 
 
 *stop reviewing profiles that look like this!*
+
+**By default, only 0 jobs for your company is on. To toggle these, press `extensions > 3 dots next to Work market tech hider > Extension options`**
+
+![Guide to open the options menu](options-preview.png)
+
 
 **This is not meant to discriminate against new technicians on the platform, rather as a convenience tool for companies who have restrictions on what techs can be used for a job.**
 
