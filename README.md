@@ -22,3 +22,4 @@ A web browser extension made to hide work market techs. When toggled on it will 
 3. (In edge) go to `Extensions > Manage Extensions` and enable `Developer Mode`
 4. (In edge) At the top of the page press `Load unpacked` and select the folder you extracted from the Release zip file.
 5. The extension should now be loaded. Tap the icon to switch between On and Off while on WorkMarket.
+  - Open the extension options to toggle the individual filters!
