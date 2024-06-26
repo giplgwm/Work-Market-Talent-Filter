@@ -1,4 +1,4 @@
-# Work Market Tech Hider
+# Work Market Talent Filter
 A web browser extension made to hide work market techs. When toggled on it will hide profiles of applicants to your ticket if they hit any of the following filters, which are individually toggleable.
 - 0 Jobs
 - 0 Jobs for your company
