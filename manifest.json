@@ -1,12 +1,13 @@
 {
   "manifest_version": 3,
-  "name": "Work Market Bad Tech Hider",
-  "description": "This extension hides Work Market techs with 0 jobs from your company.",
-  "version": "1.0",
-  "permissions": ["activeTab", "scripting"],
+  "name": "Work Market Talent Filter",
+  "description": "4 convenient filters for reviewing work market applicants.",
+  "version": "1.1",
+  "permissions": ["activeTab", "scripting", "storage"],
   "action": {
     "default_icon": "logo.png"
   },
+  "options_page": "options.html",
   "background": {
     "service_worker": "background.js"
   }
