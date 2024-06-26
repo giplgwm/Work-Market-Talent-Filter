@@ -1,13 +1,15 @@
 # Work Market Tech Hider
-A web browser extension made to hide work market techs. When toggled on it will hide the profiles of any techs who do have no completed a job for your company in the past. Configurable filters is planned to be added.
+A web browser extension made to hide work market techs. When toggled on it will hide profiles of applicants to your ticket if they hit any of the following filters, which are individually toggleable.
+- 0 Jobs
+- 0 Jobs for your company
+- Any abandoned jobs for your company
+- Any abandoned jobs
 
 ![Example Profile that would be hidden](example.png "Example Profile that would be hidden") 
 
-**The circled field is what the extension uses to determine if a profile should be hidden. (In the 'yours' tab)**
+*stop reviewing profiles that look like this!*
 
-0 = hidden. Anything else = not hidden. This value represents the total number of jobs a tech has completed for your company.
-
-The extension reads the other values in the table (Cancelled jobs/Abandoned jobs) but currently does nothing else with them. These fields are a prime candidate for customizable filters (which will be added soon) since individuals/companies will have their own threshold for acceptable technicians.
+**This is not meant to discriminate against new technicians on the platform, rather as a convenience tool for companies who have restrictions on what techs can be used for a job.**
 
 ## Installation Guide (For those who can't install through chrome web store or want to use it before its been approved there):
 1. Download the [Release](https://github.com/giplgwm/Work-Market-Tech-Hider/releases/latest). Extract the folder that is inside the ZIP. This contains the extension.
